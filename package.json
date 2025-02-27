@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Backend para el proyecto de DevTree",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "dev": "nodemon src/index.ts",
         "dev:api": "nodemon src/index.ts --api",
